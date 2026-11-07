@@ -14,7 +14,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write  # Добавлено для исправления ИНЦИДЕНТА 2 (необходимо для actions/deploy-pages)
+  # id-token: write  # Добавлено для исправления ИНЦИДЕНТА 2 (необходимо для actions/deploy-pages)
 
 concurrency:
   group: pages
